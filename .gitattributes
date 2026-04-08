@@ -1,2 +1,2 @@
-*.pro filter=kicad_project
-*.sch filter=kicad_sch
+*.kicad_pcb linguist-detectable=true
+*.kicad_sch linguist-detectable=true
