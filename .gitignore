@@ -52,7 +52,5 @@ fp-info-cache
 CarbonAwareCircuit-backups/
 *.kicad_prl
 
-bench.py
-bench.c
-bench.cpp
+bench.*
 .history
