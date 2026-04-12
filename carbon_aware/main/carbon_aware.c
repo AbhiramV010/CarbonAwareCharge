@@ -16,7 +16,7 @@
 #define WIFI_SSID "YOUR_SSID" 
 #define WIFI_PASS "YOUR_PASS" 
 #define ERR_GPIO 7
-#define PASS_PIN 
+#define PASS_VCC 10
 static const char *TAG = "wifi_app";
 
 static void ERROR(void) {
