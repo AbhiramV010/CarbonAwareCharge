@@ -91,7 +91,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "C:/Users/abhir/Downloads/CarbonAwareCharge/")
+			(outputdirectory "C:/Users/abhir/Downloads/CarbonAwareFINAL/")
 		)
 	)
 	(footprint "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm_Clear"
