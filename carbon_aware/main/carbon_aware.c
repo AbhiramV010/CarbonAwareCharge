@@ -14,7 +14,6 @@
 #include "freertos/task.h"
 #include "esp_http_client.h"
 
-
 #define WIFI_SSID "YOUR_SSID" 
 #define WIFI_PASS "YOUR_PASS" 
 #define ERR_GPIO 7
@@ -75,7 +74,7 @@ void app_main(void) {
 
 static bool SDK_query(void) {
     esp_http_client_config_t config = {
-        .url = "http://api.carbonaware.org/emissions/bylocation?location=eastus", 
+        .url = "ENTER_QUERY_URL_HERE", // Enter Carbon Aware SDK Server URL Here  
         .method = HTTP_METHOD_GET,
     };
     esp_http_client_handle_t client = esp_http_client_init(&config);
